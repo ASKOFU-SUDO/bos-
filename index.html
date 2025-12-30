@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flacks | Cybersecurity Specialist</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Terminal Loader -->
+    <div class="terminal-loader">
+        <div class="terminal-header">
+            <div class="terminal-title">Terminal</div>
+            <div class="terminal-controls">
+                <div class="control close"></div>
+                <div class="control minimize"></div>
+                <div class="control maximize"></div>
+            </div>
+        </div>
+        <div class="text">Initializing System<span class="blinking-cursor">_</span></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <span class="logo-text">ASKOFU</span>
+                <span class="logo-sub">// Security Researcher</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hacker-text" data-text="Hello, I'm ASKOFU">Hello, I'm ASKOFU</h1>
+                <h2 class="typewriter">Penetration Tester & Security Researcher</h2>
+                <p class="hero-description">
+                    I find vulnerabilities before the bad actors do. Specializing in offensive security,
+                    ethical hacking, and helping organizations fortify their digital defenses.
+                </p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        <i class="fas fa-shield-alt"></i> View My Work
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <i class="fas fa-terminal"></i> Get In Touch
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hexagon">
+                    <div class="hexagon-inner">
+                        <i class="fas fa-user-secret"></i>
+                    </div>
+                </div>
+                <div class="floating-elements">
+                    <div class="floating-element el1"><i class="fas fa-lock"></i></div>
+                    <div class="floating-element el2"><i class="fas fa-code"></i></div>
+                    <div class="floating-element el3"><i class="fas fa-bug"></i></div>
+                    <div class="floating-element el4"><i class="fas fa-network-wired"></i></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Cybersecurity Enthusiast & Ethical Hacker</h3>
+                    <p>
+                        Currently pursuing cybersecurity studies with a focus on penetration testing,
+                        vulnerability assessment, and security research. Passionate about understanding
+                        how systems can be broken to make them stronger.
+                    </p>
+                    <div class="stats">
+                        <div class="stat">
+                            <span class="stat-number" data-count="50">0</span>
+                            <span class="stat-label">CTF Challenges Solved</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number" data-count="25">0</span>
+                            <span class="stat-label">Vulnerabilities Found</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number" data-count="15">0</span>
+                            <span class="stat-label">Projects Completed</span>
+                        </div>
+                    </div>
+                    <div class="certifications">
+                        <h4>Currently Working Towards:</h4>
+                        <div class="certs">
+                            <span class="cert-badge">OSCP</span>
+                            <span class="cert-badge">CEH</span>
+                            <span class="cert-badge">CompTIA Security+</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-terminal">
+                    <div class="terminal">
+                        <div class="terminal-header">
+                            <div class="terminal-title">terminal@ASKOFU:~</div>
+                        </div>
+                        <div class="terminal-body">
+                            <div class="terminal-line"><span class="prompt">$</span> whoami</div>
+                            <div class="terminal-line response">security_researcher</div>
+                            <div class="terminal-line"><span class="prompt">$</span> cat skills.txt</div>
+                            <div class="terminal-line response">Penetration Testing | Web App Security | Network Security</div>
+                            <div class="terminal-line response">Reverse Engineering | Python Automation | Linux Security</div>
+                            <div class="terminal-line"><span class="prompt">$</span> <span class="blinking-cursor">_</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">My Arsenal</h2>
+            <div class="skills-grid">
+                <!-- Skill 1 -->
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-crosshairs"></i>
+                    </div>
+                    <h3>Penetration Testing</h3>
+                    <p>Comprehensive security assessments including network, web application, and mobile testing.</p>
+                    <div class="skill-tags">
+                        <span>Metasploit</span>
+                        <span>Burp Suite</span>
+                        <span>Nmap</span>
+                    </div>
+                </div>
+                <!-- Skill 2 -->
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Web App Security</h3>
+                    <p>Identifying and exploiting vulnerabilities like XSS, SQLi, CSRF, and logic flaws.</p>
+                    <div class="skill-tags">
+                        <span>OWASP Top 10</span>
+                        <span>SQL Injection</span>
+                        <span>XSS</span>
+                    </div>
+                </div>
+                <!-- Skill 3 -->
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <h3>Network Security</h3>
+                    <p>Network reconnaissance, packet analysis, firewall auditing, and intrusion detection.</p>
+                    <div class="skill-tags">
+                        <span>Wireshark</span>
+                        <span>Nessus</span>
+                        <span>Snort</span>
+                    </div>
+                </div>
+                <!-- Skill 4 -->
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>Tools & Automation</h3>
+                    <p>Developing custom scripts and tools for security testing and automation.</p>
+                    <div class="skill-tags">
+                        <span>Python</span>
+                        <span>Bash</span>
+                        <span>PowerShell</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Security Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Vulnerability Scanner</h3>
+                        <span class="project-status live">Live</span>
+                    </div>
+                    <p class="project-description">
+                        Custom Python-based vulnerability scanner for web applications with automated reporting.
+                    </p>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>BeautifulSoup</span>
+                        <span>Requests</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">
+                            <i class="fab fa-github"></i> Code
+                        </a>
+                        <a href="#" class="project-link">
+                            <i class="fas fa-external-link-alt"></i> Demo
+                        </a>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>CTF Write-ups</h3>
+                        <span class="project-status archive">Archive</span>
+                    </div>
+                    <p class="project-description">
+                        Detailed solutions and methodologies for various CTF challenges from TryHackMe and HackTheBox.
+                    </p>
+                    <div class="project-tech">
+                        <span>Documentation</span>
+                        <span>Forensics</span>
+                        <span>Crypto</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">
+                            <i class="fab fa-github"></i> Write-ups
+                        </a>
+                    </div>
+                </div>
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Password Cracker</h3>
+                        <span class="project-status dev">In Dev</span>
+                    </div>
+                    <p class="project-description">
+                        Multi-threaded password cracking tool supporting various hash algorithms and wordlists.
+                    </p>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>Hashcat</span>
+                        <span>John</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">
+                            <i class="fab fa-github"></i> Source
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Secure Something Together</h3>
+                    <p>Looking for security assessments, collaboration on research, or just want to talk cybersecurity?</p>
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <i class="fas fa-envelope"></i>
+                            <span>contact@askofu.com</span>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fab fa-github"></i>
+                            <span>mutukuyobi35@gmail.com/flacks</span>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fab fa-linkedin"></i>
+                            <span>mutukuyobi35@gmail.com</span>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fab fa-hackerone"></i>
+                            <span>hackerone.com</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="securityForm">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <select id="subject" required>
+                                <option value="">Select a topic</option>
+                                <option value="pentest">Penetration Testing</option>
+                                <option value="consulting">Security Consulting</option>
+                                <option value="collab">Research Collaboration</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Encrypted Message</label>
+                            <textarea id="message" rows="5" required placeholder="Enter your securely encrypted message..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i> Send Secure Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="logo-text">ASKOFU</span>
+                    <span class="footer-sub">Security through obscurity is not security.</span>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="footer-legal">
+                    <p>For educational and authorized testing purposes only.</p>
+                    <p class="copyright">© 2024 Flacks Security. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
